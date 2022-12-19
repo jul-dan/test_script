@@ -4,10 +4,12 @@ print ("Hello World 1")
 
 output = {
     "db_password": {
+    "sensitive": True,
     "value": "notasecurepassword"
   },
   "db_username": {
-    "value": "admin"
+    "sensitive": False,
+    "value": "admin2"
   }
 }
 
