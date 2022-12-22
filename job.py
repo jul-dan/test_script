@@ -16,5 +16,5 @@ output = {
 print("My output:")
 print (output)
 
-with open("/output/qovery-output.json", "w") as outfile:
+with open("/qovery-output/qovery-output.json", "w") as outfile:
     json.dump(output, outfile)
