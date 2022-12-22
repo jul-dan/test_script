@@ -1,5 +1,5 @@
 FROM python:3.8-slim-buster
-ADD main.py /home/main.py
-ADD main2.py /home/main2.py
-CMD ["/home/main.py"]
+ADD job.py job.py
+ADD cronjob.py cronjob.py
+CMD ["cronjob.py"]
 ENTRYPOINT ["python"]
