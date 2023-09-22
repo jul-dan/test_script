@@ -1,3 +1,4 @@
+2
 # test_script
 
 build:
